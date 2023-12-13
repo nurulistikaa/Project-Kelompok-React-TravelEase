@@ -1,0 +1,95 @@
+:root {
+  --main-color: #2F539B;
+  --text-color: #000000;
+  --second-color: #e8e9eb;
+  --bg-color: #fafafa;
+  --second-bg-color: #ffffff;
+}
+
+.blogs {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.blogs h1 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.blogs .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-left: 60px;
+  margin-right: 60px ;
+}
+
+.blogs .box-container .box {
+  text-align: center;
+  padding: 20px;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+}
+
+.blogs .box-container .box .image {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: auto;
+  width: 100%;
+}
+
+.blogs .box-container .box .image img {
+  width: 100%;
+  height: auto; 
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.blogs .box-container .box .content .icons {
+  position: relative;
+  top: -1.5rem;
+  border-radius: 0.8rem;
+  padding: 0.5rem;
+  background: #01959a;
+  display: inline-block;
+}
+
+.blogs .box-container .box .content .icons a {
+  font-size: 12px;
+  margin: 0 1rem;
+  color: var(--second-bg-color);
+  text-decoration: none;
+}
+
+.blogs .box-container .box .content .icons a i {
+  padding-right: 0.5rem;
+  color: var(--second-bg-color);
+}
+
+.blogs .box-container .box .content h3 {
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+  margin-top: -10px;
+  margin-bottom: 12px;
+}
+
+.blogs .box-container .box .content p {
+  font-size: 13px;
+  color: #aaa;
+  margin-top: -10px;
+}
+
+.btn-blogs{
+  display: inline-block;
+  padding: 7px 20px;
+  background: #01959a;
+  color: var(--second-bg-color);
+  border-radius: 15px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 10px;
+  transition: all .50s ease;
+  text-decoration: none;
+}
