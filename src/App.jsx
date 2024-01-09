@@ -6,7 +6,7 @@ import About from "./routes/About";
 import Service from "./routes/Service";
 import Contact from "./routes/Contact";
 import Articles from "./routes/Articles";
-import DetailArticle1 from './routes/DetailArticle1';
+import DetailArticle1 from './routes/detailarticle/DetailArticle1';
 
 function App() {
 

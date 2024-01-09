@@ -1,7 +1,7 @@
-import NusaPenida1 from "../../assets/images/2.jpg";
-import NusaPenida2 from "../../assets/images/3.jpg";
-import NusaDua1 from "../../assets/images/4.jpg";
-import NusaDua2 from "../../assets/images/5.jpg";
+import KotaLama1 from "../../assets/images/2.jpg";
+import KotaLama2 from "../../assets/images/3.jpg";
+import LawangSewu1 from "../../assets/images/4.jpg";
+import LawangSewu2 from "../../assets/images/5.jpg";
 import DestinationData from "../lists/DestinationList";
 import "../../assets/css/DestinationStyles.css";
 
@@ -9,21 +9,21 @@ const Destination = () => {
     return (
         <div className="destination">
             <h1>Popular Destinations</h1>
-            <p>TravelEase memberikan Anda kesempatan untuk menjelajahi berbagai keindahan tempat di Bali</p>
+            <p>TravelEase memberikan Anda kesempatan untuk menjelajahi berbagai keindahan tempat di Semarang</p>
 
             <DestinationData 
             className="first-des"
-            heading="Nusa Penida"
-            text="Nusa Penida, sebuah pulau eksotis yang terletak di sebelah tenggara Bali, Indonesia, memikat dengan pesonanya yang alami. Dikenal karena keindahan alamnya yang memukau, pulau ini menawarkan pantai-pantai berpasir putih yang menakjubkan, tebing-tebing yang menjulang tinggi, dan air laut yang jernih. Tempat-tempat seperti Kelingking Beach, Angel's Billabong, Crystal Bay, dan Broken Beach menjadi daya tarik utama dengan pemandangan yang mengagumkan. Aktivitas snorkeling, diving, trekking, dan petualangan alam lainnya sangat populer di sini."
-            img1={NusaPenida1}
-            img2={NusaPenida2}/>
+            heading="Kota Lama Semarang"
+            text="Kota Lama Semarang, juga dikenal sebagai Little Netherlands adalah kawasan bersejarah yang memukau di Semarang, Indonesia. Dengan arsitektur kolonial Belanda yang memesona, jalan-jalan sempit yang dipenuhi bangunan kuno, dan gang-gang bersejarah, kota ini memancarkan pesona masa lalu yang kaya. Bangunan-bangunan bersejarah yang ada didalamnya menambah daya tariknya sebagai destinasi wisata yang memikat bagi penggemar sejarah dan keindahan arsitektur klasik. Kawasan ini juga menawarkan pengalaman berbelanja dan kuliner yang unik disekitarnya."
+            img1={KotaLama1}
+            img2={KotaLama2}/>
 
             <DestinationData 
             className="first-des-reverse"
-            heading="Pantai Nusa Dua"
-            text="Pantai Nusa Dua, terletak di bagian selatan Bali, adalah destinasi yang terkenal dengan keindahan pantainya yang tenang dan fasilitasnya yang mewah. Pasir putihnya yang lembut dan air lautnya yang tenang menjadikannya tempat yang populer bagi para pelancong yang mencari liburan santai. Keindahan alamnya disempurnakan dengan hamparan terumbu karang yang indah, menjadikannya tempat yang bagus untuk snorkeling dan diving. Dengan suasana yang tenang, pantai Nusa Dua menawarkan pengalaman yang cocok untuk relaksasi dan kesenangan"
-            img1={NusaDua1}
-            img2={NusaDua2}/>
+            heading="Lawang Sewu"
+            text="Lawang Sewu adalah sebuah bangunan bersejarah yang terletak di Semarang, Jawa Tengah, Indonesia. Nama Lawang Sewu berasal dari bahasa Jawa yang berarti seribu pintu, meskipun sebenarnya bangunan ini tidak memiliki seribu pintu. Bangunan ini memiliki arsitektur kolonial Belanda yang megah karena memiliki banyak pintu dan jendela. Awalnya digunakan sebagai kantor pusat perusahaan kereta api Belanda, kini menjadi salah satu ikon Semarang yang sering dikunjungi oleh wisatawan untuk menikmati arsitektur bersejarahnya."
+            img1={LawangSewu1}
+            img2={LawangSewu2}/>
         </div>
     )
 }

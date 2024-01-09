@@ -1,7 +1,7 @@
 import "../../assets/css/ArticleStyles.css";
 import Article1 from "../../assets/images/article-1.jpg";
 import Article2 from "../../assets/images/article-2.jpg";
-import Article3 from "../../assets/images/article-3.jpg";
+import Article3 from "../../assets/images/article-3.jpeg";
 import Article4 from "../../assets/images/article-4.jpg";
 import Article5 from "../../assets/images/article-5.jpg";
 import Article6 from "../../assets/images/article-6.jpg";
